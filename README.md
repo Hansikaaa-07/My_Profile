@@ -7,4 +7,4 @@ This project highlights my education, technical skills, and projects.
 HTML | CSS
 
 ## Live Link
-https://hansikaa-07.github.io/My_Profile/
+https://hansikaaa-07.github.io/My_Profile/
