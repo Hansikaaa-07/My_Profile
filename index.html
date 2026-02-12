@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hansika Keerthi | Portfolio</title>
+    <style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #1a1a1d;
+    color: #e4e4e7;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+header h1 {
+    font-size: 38px;
+    letter-spacing: 2px;
+}
+
+header p {
+    color: #a1a1aa;
+    margin-top: 10px;
+}
+
+nav {
+    text-align: center;
+    padding: 15px;
+    background-color: #222229;
+}
+
+nav a {
+    color: #a1a1aa;
+    margin: 0 20px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #8b5cf6;
+}
+
+.card {
+    background-color: #222229;
+    margin: 40px auto;
+    padding: 40px;
+    width: 80%;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 0 20px rgba(139, 92, 246, 0.3);
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #8b5cf6;
+}
+
+img {
+    width: 160px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+ul, ol {
+    list-style-position: inside;
+    color: #cfcfd4;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    border-bottom: 1px solid #333;
+}
+
+th {
+    color: #8b5cf6;
+}
+th, td {
+    padding: 12px;
+    border-bottom: 1px solid #333;
+    text-align: center;
+}
+
+a {
+    color: #8b5cf6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #777;
+}
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    text-align: left;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-image {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.about-image img {
+    width: 180px;
+    border-radius: 50%;
+}
+</style>
+<body>
+
+<header>
+    <h1>Hansika Keerthi</h1>
+    <p>Full Stack Developer || B.Tech Student turning code into experience</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#eduaction">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#Contact">Contact</a>
+</nav>
+
+<section id="about" class="card about-container">
+    
+    <div class="about-image">
+        <img src="prof.jpeg" alt="Profile Photo">
+    </div>
+
+    <div class="about-text">
+        <h2>Profile  </h2>
+        
+        <p>
+            I am a enthusiastic Information Technology undergraduate with growing interest in software development and core computer concepts.<br>
+            I enjoy writing structured readable code and applying theoretical knowledge to real world scenarios.<br>
+            I am continuously working on strengthening my programming foundation while exploring modern web and softwarre technologies.
+        </p>
+    </div>
+
+</section>
+
+
+<section id="education" class="card">
+    <h2>Education</h2>
+    <table>
+        <tr>
+            <th>Year</th>
+            <th>Course</th>
+            <th>Institution</th>
+        </tr>
+        <tr>
+            <td>2024–2028</td>
+            <td>B.Tech</td>
+            <td>Vasavi college of Enginneering</td>
+        </tr>
+        <tr>
+            <td>2022-2024</td>
+            <td>Intermediate</td>
+            <td>Narayana Junior college</td>
+        </tr>
+        <tr>
+            <td>2022</td>
+            <td>Matriculation</td>
+            <td>Montessori High School</td>
+        </tr>
+    </table>
+</section>
+
+<section id="skills" class="card">
+    <h2>Skills</h2>
+
+    <h3>Technical Skills</h3>
+    <ul>
+        <li>HTML & CSS</li>
+        <li>JavaScript</li>
+        <li>SQL</li>
+        <li>OOP through Java</li>
+        <li>C and DSA through C</li>
+        <li>Python programming and DSA</li>
+    </ul>
+
+    <h3>Strengths</h3>
+    <ul>
+        <li>Curious and exploratory</li>
+        <li>Creative thinker</li>
+        <li>Detail oriented </li>
+        <li>Well organized approach to tasks</li>
+        <li>Good collaboration mindset</li>
+    </ul>
+</section>
+
+
+<section id="projects" class="card">
+    <h2>Projects</h2>
+    <ol>
+        <li><b>Typing Speed Tester</b>- a simple yet functional C appliaction too improve and evaluate typing speed and accuracy</li>
+        <li><b>Crisis Navigator</b>-an C appliaction using DS which finds shortest yet safest routes during disasters </li>
+        <li><b>Lost And Found System</b>- a Java application to report lost an found items </li>
+        <li><b>Carbon Track Mines</b>- a appliaction to control emmissions of gases of coal mining powers india</li>
+        <li><b>Personal Portfolio</b>- designed and developed a professional website using HTML and CSS</li>
+    </ol>
+</section>
+
+
+<section id="certifications" class="card">
+    <h2>Certifications</h2>
+    <ul>
+        <li>NPTEL DSA through Python Certification</li>
+        <li>SDC Competition ASME EFx achievement certification</li>
+        <li>Cisco Python Essentials 1 Certification</li>
+    </ul>
+</section>
+
+<section id="contact" class="card">
+    <h2>Contact</h2>
+
+    <p>
+        Email:
+        <a href="mailto:hansika.keerthi007@gmail.com">
+            Get in Touch
+        </a>
+    </p>
+
+    <p> Github:
+        <a href="https://github.com/Hansikaaa-07" target="_blank">
+            Browse Repositories
+        </a>
+        <br>
+        Linkedin:
+        <a href="https://www.linkedin.com/in/hansika-keerthi" target="_blank">
+            Explore my network
+        </a>
+    </p>
+</section>
+
+<footer>
+    <p>© Hansika Keerthi</p>
+</footer>
+
+</body>
+</html>
